@@ -30,10 +30,10 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen w-full bg-white relative text-gray-800">
+    <div className="min-h-screen w-full bg-white relative text-gray-800 overflow-x-hidden">
       {/* Zigzag Lightning - Light Pattern */}
       <div
-        className="absolute inset-0 z-0 pointer-events-none"
+        className="absolute inset-0 z-0 pointer-events-none w-full h-full"
         style={{
           backgroundImage: `
         repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(75, 85, 99, 0.08) 20px, rgba(75, 85, 99, 0.08) 21px),

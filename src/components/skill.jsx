@@ -101,9 +101,7 @@ export default function SkillsProgress() {
                     ease: "easeOut",
                     delay: index * 0.1 + 0.3,
                   }}
-                >
-                  {skill.percent}%
-                </motion.div>
+                ></motion.div>
               </div>
             </motion.div>
           ))}
