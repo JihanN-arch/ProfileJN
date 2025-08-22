@@ -11,7 +11,7 @@ export default function Banner() {
     AOS.init({
       duration: 1000,
       offset: 100,
-      once: false, // ini bikin animasi bisa jalan lagi tiap masuk viewport
+      once: false, // entah kenapa animasinay ttp once ;(
       anchorPlacement: "top-bottom",
     });
   }, []);
@@ -22,7 +22,7 @@ export default function Banner() {
       ref={bannerRef}
       className="relative w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-20 gap-12"
     >
-      {/* Text Section */}
+      {/* TEXT SECTION */}
       <div
         className="max-w-2xl text-[#341d1d]"
         data-aos="fade-up"

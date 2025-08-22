@@ -43,10 +43,9 @@ function App() {
       `,
         }}
       />
-      {/* Your Content/Components */}
 
       <div className="flex flex-col min-h-screen">
-        {/* Navbar atau Header */}
+        {/* Navbar */}
         <Navbar />
 
         {/* Konten */}
@@ -57,7 +56,7 @@ function App() {
           <Project />
         </main>
 
-        {/* Footer selalu di bawah */}
+        {/* Footer*/}
         <Footer />
       </div>
     </div>

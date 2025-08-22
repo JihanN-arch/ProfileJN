@@ -8,6 +8,7 @@ import flutterApp from "../assets/flutterApp.png";
 
 export default function Project() {
   const projects = [
+    // ISI PROJECT
     {
       title: "One Two Code's Web 1",
       description:

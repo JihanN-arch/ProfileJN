@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Experience() {
   const experiences = [
+    // SECTION EXPERIENCE
     {
       number: 1,
       title: "Beginner Web Developer",
@@ -51,10 +52,10 @@ export default function Experience() {
             viewport={{ once: false, amount: 0.4 }}
             className="relative group w-full max-w-[285px] mx-auto"
           >
-            {/* Shadow box (tetap diam) */}
+            {/* SHADOW BOX */}
             <div className="absolute top-[10px] left-[10px] w-full h-full bg-[#341d1d] rounded-md z-0" />
 
-            {/* Kartu utama (bergerak saat hover) */}
+            {/* HOVER KARTU PERTAMA */}
             <div className="relative z-10 bg-white border-2 border-[#341d1d] rounded-md p-7 flex flex-col justify-between transition duration-300 group-hover:translate-x-[10px] group-hover:translate-y-[10px] min-h-[380px]">
               <div className="bg-[#341d1d] text-white px-4 py-2 mb-4 w-fit rounded">
                 {exp.number}

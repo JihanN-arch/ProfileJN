@@ -8,13 +8,13 @@ import {
 export default function Footer() {
   return (
     <footer className="py-6 border-t relative">
-      {/* Teks Tengah */}
+      {/* TEKS TENGAH */}
       <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none text-center text-[#341d1d]">
         <span>&copy; 2025 JN. All rights reserved.</span>
       </div>
 
       <div className="max-w-6xl mx-auto px-8 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0 text-[#341d1d]">
-        {/* Kiri */}
+        {/* TEKS KIRI */}
         <div className="font-semibold text-center md:text-left w-full md:w-auto">
           <a
             href="#banner"
@@ -24,13 +24,14 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* Tengah (versi mobile) */}
+        {/* MODE MOBILE (DITENGAH) */}
         <div className="block md:hidden text-center">
           <span>&copy; 2025 JN. All rights reserved.</span>
         </div>
 
-        {/* Kanan */}
+        {/* TEKS KANAN */}
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 w-full md:w-auto justify-center md:justify-end">
+          {/* HOVER */}
           <span
             className="
     font-medium

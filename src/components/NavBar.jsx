@@ -45,7 +45,7 @@ export default function Header() {
       )}
 
       <header className="fixed top-0 left-0 w-full z-[10000]">
-        {/* Wrapper */}
+        {/* WRAPPER */}
         <div className={`mt-6 transition-all duration-700 ease-in-out`}>
           <nav
             className={`mx-auto flex items-center justify-center px-6 md:px-20 overflow-hidden transition-all duration-700 ease-in-out
@@ -56,7 +56,7 @@ export default function Header() {
           : "md:w-fit md:border md:border-transparent md:py-6"
       }`}
           >
-            {/* Toggle */}
+            {/* TOOGLE MOBILE */}
             <button
               className="fixed right-6 top-4 text-[35px] text-[#341d1d] focus:outline-none active:text-[#341d1d] md:hidden z-[9999]"
               onClick={toggleMenu}
@@ -65,7 +65,7 @@ export default function Header() {
               {menuOpen ? "X" : "☰"}
             </button>
 
-            {/* Isi nav */}
+            {/* ISI NAVBAR */}
             <ul
               className={`font-medium text-[#341d1d] items-center text-base tracking-wide leading-none p-0 m-0 gap-6 md:gap-10
           ${
@@ -122,7 +122,7 @@ export default function Header() {
           </nav>
         </div>
 
-        {/* Header Line */}
+        {/* HEADER LINE */}
         <div
           className={`mx-auto w-[80%] h-px bg-[#341d1d] transition-opacity duration-300 
         ${

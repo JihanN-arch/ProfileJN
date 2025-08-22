@@ -39,7 +39,7 @@ export default function SkillsProgress() {
       id="skill"
       className="relative min-h-[90vh] flex flex-col items-center justify-center px-6 md:px-20 lg:px-32 py-24"
     >
-      {/* Particles Background */}
+      {/* PARTICLE BACKGROHYND*/}
       <Particles
         options={{
           background: { color: "transparent" },
@@ -54,7 +54,7 @@ export default function SkillsProgress() {
         className="absolute inset-0 -z-10"
       />
 
-      {/* Title */}
+      {/* TITLE*/}
       <div className="text-center mb-12">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -66,9 +66,9 @@ export default function SkillsProgress() {
         </motion.h2>
       </div>
 
-      {/* Skills Grid */}
+      {/* SKILLS GRID */}
       <div className="grid md:grid-cols-2 gap-16 w-full max-w-5xl">
-        {/* Left Column: Frontend */}
+        {/* KOLOM KIRI: FRONT END */}
         <div>
           <h3 className="text-xl font-semibold text-[#bda88d] mb-6">
             {skillsData[0].category}
@@ -81,13 +81,13 @@ export default function SkillsProgress() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
             >
-              {/* Icon & Name */}
+              {/* ICON, NAME */}
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-[#341b1b] text-3xl">{skill.icon}</span>
                 <p className="font-medium text-gray-300">{skill.name}</p>
               </div>
 
-              {/* Progress Bar */}
+              {/* PROGRESS BAR */}
               <div className="w-full bg-gray-700 rounded-full h-4 overflow-hidden">
                 <motion.div
                   className="h-full"
@@ -109,7 +109,7 @@ export default function SkillsProgress() {
           ))}
         </div>
 
-        {/* Right Column: Mobile + Programming */}
+        {/* KOLOM KANAN: MOBILE DEV AMA PROGAMING LANG*/}
         <div>
           {skillsData.slice(1).map((category, catIndex) => (
             <div key={catIndex} className="mb-12">
@@ -124,7 +124,7 @@ export default function SkillsProgress() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.1, duration: 0.5 }}
                 >
-                  {/* Icon & Name */}
+                  {/* ICON, NMAE */}
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-[#341b1b] text-3xl">
                       {skill.icon}
@@ -132,7 +132,7 @@ export default function SkillsProgress() {
                     <p className="font-medium text-gray-300">{skill.name}</p>
                   </div>
 
-                  {/* Progress Bar */}
+                  {/* PROGREESS BAR */}
                   <div className="w-full bg-gray-700 rounded-full h-4 overflow-hidden">
                     <motion.div
                       className="h-full text-xs text-white font-semibold flex items-center justify-center"
