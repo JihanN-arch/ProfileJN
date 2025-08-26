@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./components/NavBar";
 import Banner from "./components/Banner";
+import SkillsProgress from "./components/skill";
+// import AboutMe from "./components/boutMe";
 import Experience from "./components/experience";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
@@ -8,7 +10,6 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 
 import { useEffect } from "react";
-import SkillsProgress from "./components/skill";
 
 function App() {
   useEffect(() => {
@@ -51,6 +52,7 @@ function App() {
         {/* Konten */}
         <main className="flex-1">
           <Banner />
+          {/* <AboutMe /> */}
           <Experience />
           <SkillsProgress />
           <Project />
