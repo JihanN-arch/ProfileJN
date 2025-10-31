@@ -39,7 +39,7 @@ export default function Project() {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="text-3xl font-bold text-[#341d1d]"
         >
           My Project
@@ -49,7 +49,7 @@ export default function Project() {
           initial={{ opacity: 0, y: -10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="text-[#555] mt-2"
         >
           Some small projects I made :D
@@ -64,7 +64,7 @@ export default function Project() {
             whileInView={{ opacity: 1, y: 0 }}
             whileHover={{ y: -8, boxShadow: "0 10px 25px rgba(0,0,0,0.2)" }}
             transition={{ duration: 0.4, delay: idx * 0.1 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className={`border-2 border-[#341d1d] rounded-lg p-4 shadow-md flex flex-col
     max-w-[300px] w-full mx-auto bg-white
     ${

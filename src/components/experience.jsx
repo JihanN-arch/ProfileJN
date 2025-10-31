@@ -36,7 +36,7 @@ export default function Experience() {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
         className="text-3xl font-bold text-[#341d1d]"
       >
         My Experience
@@ -49,7 +49,7 @@ export default function Experience() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: idx * 0.2 }}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: true, amount: 0.4 }}
             className="relative group w-full max-w-[285px] mx-auto"
           >
             {/* SHADOW BOX */}

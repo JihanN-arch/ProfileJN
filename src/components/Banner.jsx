@@ -14,7 +14,7 @@ export default function Banner() {
         <motion.h3
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-5xl md:text-6xl font-bold text-[#341d1d] mb-2"
         >
@@ -25,7 +25,7 @@ export default function Banner() {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="h-auto w-full md:w-[400px] flex items-center justify-center md:justify-start"
         >
@@ -46,7 +46,7 @@ export default function Banner() {
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="relative overflow-hidden inline-flex items-center justify-center bg-[#341d1d] text-white px-6 py-2 rounded mt-6 hover:bg-[#5a2f2f] transition-colors duration-300 ease-in-out group"
         >
@@ -60,7 +60,7 @@ export default function Banner() {
         className="flex justify-center flex-shrink-0"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: false, amount: 0.4 }} // muncul lagi kalau discroll
+        viewport={{ once: true, amount: 0.4 }} // muncul lagi kalau discroll
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="relative w-[280px] md:w-[320px] max-w-[320px]">
