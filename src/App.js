@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/NavBar";
 import Banner from "./components/Banner";
-import SkillsProgress from "./components/skill";
+// import SkillsProgress from "./components/skill";
 // import AboutMe from "./components/boutMe";
 import Experience from "./components/experience";
 import Project from "./components/Project";
@@ -54,7 +54,7 @@ function App() {
           <Banner />
           {/* <AboutMe /> */}
           <Experience />
-          <SkillsProgress />
+          {/* <SkillsProgress /> */}
           <Project />
         </main>
 
